@@ -12,6 +12,6 @@ public class CarFormatter {
         for (Car car : carRepository.getCars()) {
             sb.append(car.getBrand()).append(" ").append(car.getModel()).append(", ");
         }
-        return sb.substring(0, sb.length() - 2);  // Remove trailing comma and space
+        return sb.substring(0, sb.length() - 2);  
     }
 }
